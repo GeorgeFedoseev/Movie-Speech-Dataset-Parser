@@ -1,6 +1,7 @@
 from cli_dependency_check import is_ffmpeg_installed
 import subprocess
 
+
 def convert_to_wav(in_audio_path, out_audio_path, bitwidth=16, channels=1, samplerate=16000):
     print 'converting %s to wav' % in_audio_path
     p = subprocess.Popen(["ffmpeg", "-y",
@@ -22,3 +23,4 @@ def convert_to_wav(in_audio_path, out_audio_path, bitwidth=16, channels=1, sampl
         print("failed_ffmpeg_conversion "+str(err))
         return False
     return True
+

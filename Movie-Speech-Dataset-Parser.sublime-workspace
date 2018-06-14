@@ -520,15 +520,6 @@
 	"buffers":
 	[
 		{
-			"file": "test_torrent_dl.py",
-			"settings":
-			{
-				"buffer_size": 144,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "const.py",
 			"settings":
 			{
@@ -538,30 +529,46 @@
 			}
 		},
 		{
+			"file": "audio_converter.py",
+			"settings":
+			{
+				"buffer_size": 677,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test_convert.py",
+			"settings":
+			{
+				"buffer_size": 226,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "torrent_downloader.py",
 			"settings":
 			{
 				"buffer_size": 555,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "cli_dependency_check.py",
+			"file": "test_torrent_dl.py",
 			"settings":
 			{
-				"buffer_size": 669,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 144,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "audio_converter.py",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 674,
+				"buffer_size": 1209,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -629,10 +636,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/gosha/Projects/Movie-Speech-Dataset-Parser"
+		"/C/Users/gosha/Projects/Movie-Speech-Dataset-Parser"
 	],
 	"file_history":
 	[
+		"/C/Users/gosha/Projects/Movie-Speech-Dataset-Parser/Movie-Speech-Dataset-Parser.sublime-project",
+		"/C/Users/gosha/Projects/Movie-Speech-Dataset-Parser/audio_converter.py",
+		"/C/Users/gosha/Projects/Movie-Speech-Dataset-Parser/cli_dependency_check.py",
+		"/C/Users/gosha/Projects/Movie-Speech-Dataset-Parser/torrent_downloader.py",
+		"/C/Users/gosha/Projects/Movie-Speech-Dataset-Parser/test_torrent_dl.py",
 		"/Users/gosha/Projects/Movie-Speech-Dataset-Parser/cli_dependency_check.py",
 		"/Users/gosha/Projects/Movie-Speech-Dataset-Parser/Movie-Speech-Dataset-Parser.sublime-project",
 		"/Users/gosha/Downloads/oceans.eleven.(2001).rus.1cd.(3129378)/Oceans 11 Eleven - Proper DVD rip .XviD.srt",
@@ -755,16 +767,11 @@
 		"/Users/gosha/Projects/youtube-audio-captions-parsing/venv/lib/python2.7/site-packages/pyvtt/vttfile.py",
 		"/Users/gosha/Projects/youtube-audio-captions-parsing/data/blSz672ZarU/subs.ru.vtt",
 		"/Users/gosha/Projects/youtube-audio-captions-parsing/youtube_video_searcher.py",
-		"/Users/gosha/Projects/youtube-audio-captions-parsing/speech_utils.py",
-		"/Users/gosha/Projects/youtube-audio-captions-parsing/test.py",
-		"/Users/gosha/Projects/youtube-audio-captions-parsing/stats_util.py",
-		"/Users/gosha/Library/Application Support/Sublime Text 3/Packages/Jedi - Python autocompletion/Default.sublime-keymap",
-		"/Users/gosha/Projects/youtube-audio-captions-parsing/audio_utils.py",
-		"/Users/gosha/Projects/youtube-audio-captions-parsing/yt.sublime-project"
+		"/Users/gosha/Projects/youtube-audio-captions-parsing/speech_utils.py"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -801,45 +808,6 @@
 			[
 				{
 					"buffer": 0,
-					"file": "test_torrent_dl.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 144,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								144,
-								111
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "const.py",
 					"semi_transient": false,
 					"settings":
@@ -883,13 +851,71 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "audio_converter.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								677,
+								677
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "torrent_downloader.py",
+					"file": "test_convert.py",
 					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "torrent_downloader.py",
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 555,
@@ -899,63 +925,15 @@
 						"selection":
 						[
 							[
-								341,
-								341
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "cli_dependency_check.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 669,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								365,
-								365
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -966,38 +944,55 @@
 				},
 				{
 					"buffer": 4,
-					"file": "audio_converter.py",
+					"file": "test_torrent_dl.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 674,
+						"buffer_size": 144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								507,
-								507
+								64,
+								64
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1209,
+								1209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1516.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -1008,11 +1003,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 27.0
 	},
 	"input":
 	{
-		"height": 35.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -1039,17 +1034,17 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 274.0
+		"height": 159.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "venv Build System",
+	"pinned_build_system": "venv Build System windows",
 	"project": "Movie-Speech-Dataset-Parser.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
