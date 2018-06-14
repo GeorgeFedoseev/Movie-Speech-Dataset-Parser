@@ -1,12 +1,6 @@
 {
 	"build_systems":
-	[
-		{
-			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-			"name": "venv Build System windows",
-			"selector": "source.python",
-			"shell_cmd": "\"./venv/Scripts/python\" -u \"$file\""
-		},
+	[		
 		{
 			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 			"name": "venv Build System",
