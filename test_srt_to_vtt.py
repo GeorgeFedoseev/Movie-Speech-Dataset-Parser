@@ -1,6 +1,6 @@
 # coding:utf-8
 
-from pycaption import WebVTTWriter, SRTReader
+import subs_utils
 import os
 import const
 import io
@@ -12,8 +12,10 @@ sys.setdefaultencoding('utf-8')
 
 if __name__ == "__main__":
 
-	inp = os.path.join(const.DATA_DIR, "oceans11-utf8.srt")
-	with open(inp, 'r') as f:
-		subs = SRTReader().read(f.read().decode('utf-8'))
+	inp = os.path.join(const.DATA_DIR, "oceans11.srt")
 
-		print WebVTTWriter().write(subs)
+	out = os.path.join(const.DATA_DIR, "oceans11.vtt")
+
+	subs_utils.convert_subs_to_vtt(inp, out)
+
+	subs = subs_utils.get_subs(out)

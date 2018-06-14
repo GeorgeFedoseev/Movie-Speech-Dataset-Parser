@@ -6,4 +6,5 @@ future==0.16.0
 lxml==4.2.1
 pycaption==0.7.3
 pysrt==1.1.1
+pyvtt==0.0.1
 six==1.11.0

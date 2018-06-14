@@ -29,3 +29,17 @@ def convert_to_wav(in_audio_path, out_audio_path, bitwidth=16, channels=1, sampl
         return False
     return True
 
+
+def is_bad_piece(audio_duration, transcript):   
+
+    MAX_SECS = 20
+    MIN_SECS = 3    
+    
+    MIN_SEC_PER_SYMBOL = 0.03
+    #MIN_SEC_PER_SYMBOL = 0
+
+    # remove audios that are shorter than 0.5s and longer than 20s.
+    # remove audios that are too short for transcript.
+    if audio_duration > MIN_SECS and audio_duration < MAX_SECS and transcript!="" and audio_duration/len(transcript) > MIN_SEC_PER_SYMBOL:
+        return False
+    return True
