@@ -4,6 +4,11 @@ import subprocess
 
 def convert_to_wav(in_audio_path, out_audio_path, bitwidth=16, channels=1, samplerate=16000):
     print 'converting %s to wav' % in_audio_path
+
+    if not is_ffmpeg_installed():
+        return
+
+
     p = subprocess.Popen(["ffmpeg", "-y",
          "-i", in_audio_path,         
          "-ac", str(channels),

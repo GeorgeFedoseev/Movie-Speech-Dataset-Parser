@@ -17,7 +17,7 @@
 			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 			"name": "Anaconda Python Builder",
 			"selector": "source.python",
-			"shell_cmd": "\"./venv/bin/python\" -u \"$file\""
+			"shell_cmd": "\"C:\\Python27\\python.exe\" -u \"$file\""
 		}
 	],
 	"folders":
@@ -29,6 +29,6 @@
 	"settings":
 	{
 		"anaconda_linting": false,
-		"python_interpreter": "./venv/bin/python"
+		"python_interpreter": "C:\\Python27\\python.exe"
 	}
 }
